@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة ركن الصيانة - صيانة أفران بجدة</title>
+    <style>
+        body { font-family: Tahoma, Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; text-align: center; }
+        header { background: linear-gradient(135deg, #0056b3, #003d82); color: white; padding: 40px 20px; }
+        header h1 { margin: 0; font-size: 2.2em; }
+        header p { font-size: 1.2em; margin-top: 10px; color: #ffcc00; }
+        .container { max-width: 800px; margin: 30px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .offer-box { background: #fff8e1; border: 2px dashed #ffc107; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .offer-box h2 { color: #d32f2f; margin: 0 0 10px; font-size: 2em; }
+        .features { text-align: right; margin: 20px 0; line-height: 1.8; font-size: 1.1em; }
+        .cta-buttons { margin-top: 30px; }
+        .btn { display: inline-block; padding: 15px 30px; margin: 10px; font-size: 1.2em; font-weight: bold; text-decoration: none; border-radius: 5px; color: white; }
+        .btn-whatsapp { background-color: #25d366; }
+        .btn-call { background-color: #007bff; }
+        footer { margin-top: 40px; padding: 15px; background: #222; color: white; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شركة ركن الصيانة</h1>
+        <p>متخصصون في صيانة وإصلاح جميع أنواع الأفران بجدة</p>
+    </header>
+    <div class="container">
+        <div class="offer-box">
+            <h2>عرض خاص لفترة محدودة!</h2>
+            <p style="font-size: 1.4em; font-weight: bold; margin: 0;">صيانة وفحص أفران بـ <span style="color: #d32f2f;">99 ريال فقط</span></p>
+        </div>
+        <div class="features">
+            <p>✅ فحص شامل ودقيق للأفران باستخدام أحدث الأجهزة.</p>
+            <p>✅ إصلاح أعطال الحرارة والشعلات وتسربات الغاز.</p>
+            <p>✅ قطع غيار أصلية مع ضمان على الصيانة.</p>
+            <p>✅ خدمة سريعة داخل جميع أحياء جدة وفريق فني متخصص.</p>
+        </div>
+        <div class="cta-buttons">
+            <a href="https://wa.me/966593865868" class="btn btn-whatsapp" target="_blank">تواصل عبر واتساب</a>
+            <a href="tel:0593865868" class="btn btn-call">اتصل الان</a>
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة © شركة ركن الصيانة بجدة</p>
+    </footer>
+</body>
+</html>
