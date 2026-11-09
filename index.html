@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>تنظيف وعزل الخزانات وعزل الأسطح بالرياض</title>
-
-<meta name="description" content="خدمات تنظيف وتعقيم وعزل الخزانات بالرياض وعزل الأسطح عزل مائي وحراري بأعلى جودة. تواصل معنا الآن.">
+<meta name="description" content="نقدم خدمات تنظيف وتعقيم وعزل الخزانات بالرياض وعزل الأسطح مائياً وحرارياً. تواصل معنا الآن عبر الواتساب أو الاتصال المباشر.">
+<meta name="theme-color" content="#073b55">
 
 <!-- TikTok Pixel Code Start -->
 <script>
@@ -29,70 +29,141 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Tahoma, Arial, sans-serif;
-    background: #f5f8fa;
-    color: #263746;
+    background: #f3f7f8;
+    color: #243746;
     line-height: 1.8;
 }
 
 header {
-    background: #073b55;
-    color: white;
+    background: linear-gradient(135deg, #052f46, #087b83);
+    color: #fff;
+    padding: 20px 15px;
     text-align: center;
-    padding: 35px 15px;
+}
+
+.header-inner {
+    max-width: 950px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    border: 2px solid rgba(255,255,255,.35);
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #d9f7f4;
 }
 
 header h1 {
-    font-size: 29px;
-    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 17px;
-    color: #e1edf2;
-}
-
-.container {
-    max-width: 850px;
-    margin: auto;
-    padding: 25px 18px;
+    color: #e1f1f2;
+    font-size: 16px;
 }
 
 .hero {
-    background: white;
-    padding: 30px 20px;
-    border-radius: 15px;
+    background: linear-gradient(135deg, #073b55, #087b83);
+    color: white;
+    padding: 55px 20px;
     text-align: center;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
-    margin-top: -10px;
+}
+
+.hero-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.hero-label {
+    display: inline-block;
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 30px;
+    padding: 5px 17px;
+    font-size: 14px;
+    margin-bottom: 18px;
 }
 
 .hero h2 {
-    color: #087b83;
-    font-size: 25px;
-    margin-bottom: 12px;
+    font-size: 32px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.hero h2 span {
+    color: #a9f1d5;
 }
 
 .hero p {
     font-size: 17px;
-    color: #536575;
+    color: #e2f0f1;
+    max-width: 680px;
+    margin: auto;
+}
+
+.container {
+    max-width: 950px;
+    padding: 35px 18px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title h2 {
+    color: #073b55;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    color: #71818b;
+    font-size: 15px;
 }
 
 .services {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin-top: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 17px;
 }
 
 .service {
     background: white;
-    padding: 22px 15px;
-    border-radius: 12px;
-    text-align: center;
-    border-bottom: 4px solid #087b83;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    padding: 25px 20px;
+    border-radius: 14px;
+    border: 1px solid #e6edef;
+    box-shadow: 0 5px 18px rgba(0,0,0,.045);
+    transition: .3s;
+}
+
+.service:hover {
+    transform: translateY(-4px);
+}
+
+.service-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e6f5f3;
+    color: #087b83;
+    border-radius: 13px;
+    font-size: 27px;
+    margin-bottom: 13px;
 }
 
 .service h3 {
@@ -102,64 +173,105 @@ header p {
 }
 
 .service p {
+    color: #687985;
     font-size: 14px;
-    color: #657582;
 }
 
 .why {
-    background: #e6f2f3;
-    padding: 25px 20px;
-    border-radius: 13px;
-    margin-top: 25px;
+    background: white;
+    border-radius: 16px;
+    padding: 30px 25px;
+    margin-top: 35px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.04);
 }
 
 .why h2 {
+    text-align: center;
     color: #073b55;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.why-item {
+    background: #f2f8f8;
+    padding: 13px;
+    border-radius: 10px;
+    color: #425866;
+    font-size: 15px;
+}
+
+.why-item span {
+    color: #087b83;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.info {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.info h2 {
+    color: #073b55;
+    font-size: 25px;
     margin-bottom: 12px;
 }
 
-.why ul {
-    padding-right: 22px;
-}
-
-.why li {
-    margin-bottom: 8px;
+.info p {
+    color: #687985;
+    max-width: 700px;
+    margin: auto;
+    font-size: 15px;
 }
 
 .cta {
-    text-align: center;
-    background: #073b55;
+    background: linear-gradient(135deg, #052f46, #087b83);
     color: white;
-    padding: 30px 18px;
-    border-radius: 15px;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 18px;
     margin-top: 25px;
+    box-shadow: 0 8px 25px rgba(7,59,85,.15);
 }
 
 .cta h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .cta p {
-    margin-bottom: 20px;
+    color: #e0eeee;
+    font-size: 16px;
+    margin-bottom: 23px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    max-width: 400px;
+    gap: 13px;
+    max-width: 390px;
     margin: auto;
 }
 
 .btn {
     display: block;
+    padding: 15px 18px;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 14px;
-    border-radius: 9px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: scale(1.02);
 }
 
 .whatsapp {
@@ -172,13 +284,29 @@ header p {
 
 footer {
     text-align: center;
-    padding: 20px;
-    color: #71818b;
+    padding: 22px 15px;
+    color: #758590;
     font-size: 13px;
 }
 
-@media(max-width: 500px) {
+@media(max-width:600px) {
     header h1 {
+        font-size: 23px;
+    }
+
+    .hero {
+        padding: 40px 18px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .section-title h2 {
         font-size: 23px;
     }
 
@@ -186,8 +314,12 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .hero h2 {
-        font-size: 21px;
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta h2 {
+        font-size: 24px;
     }
 }
 </style>
@@ -196,77 +328,133 @@ footer {
 <body>
 
 <header>
-    <h1>خدمات تنظيف وعزل الخزانات بالرياض</h1>
-    <p>حلول متكاملة لعزل الأسطح وحماية المباني من التسربات</p>
+    <div class="header-inner">
+        <div class="logo">خدمات متخصصة بالرياض</div>
+        <h1>تنظيف وعزل الخزانات وعزل الأسطح بالرياض</h1>
+        <p>حلول متكاملة لحماية منزلك ومبناك من التسربات والرطوبة</p>
+    </div>
 </header>
 
-<div class="container">
-
-    <section class="hero">
-        <h2>احمِ منزلك مع خدماتنا المتخصصة</h2>
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-label">خدمات تنظيف وعزل متكاملة</div>
+        <h2>حافظ على منزلك مع خدمات <span>التنظيف والعزل</span></h2>
         <p>
-        نوفر خدمات تنظيف وتعقيم الخزانات وعزلها،
-        بالإضافة إلى عزل الأسطح مائيًا وحراريًا
-        باستخدام مواد مناسبة لضمان الحماية والجودة.
-        تواصل معنا الآن لطلب الخدمة.
+            نوفر خدمات تنظيف وتعقيم الخزانات وعزل الخزانات،
+            بالإضافة إلى العزل المائي والحراري للأسطح بالرياض،
+            مع الاهتمام بجودة التنفيذ وتلبية احتياجات العملاء.
         </p>
-    </section>
+    </div>
+</section>
+
+<main class="container">
+
+    <div class="section-title">
+        <h2>خدماتنا في الرياض</h2>
+        <p>مجموعة من الحلول المتخصصة للحفاظ على سلامة المباني والخزانات</p>
+    </div>
 
     <section class="services">
 
         <div class="service">
-            <h3>تنظيف الخزانات</h3>
-            <p>تنظيف الخزانات وإزالة الرواسب والشوائب والاهتمام بنظافة المياه.</p>
+            <div class="service-icon">💧</div>
+            <h3>تنظيف وتعقيم الخزانات</h3>
+            <p>
+                تنظيف الخزانات وإزالة الرواسب والشوائب
+                والاهتمام بنظافة الخزان والمحافظة عليه.
+            </p>
         </div>
 
         <div class="service">
+            <div class="service-icon">🛡️</div>
             <h3>عزل الخزانات</h3>
-            <p>عزل الخزانات لحمايتها من التسربات والمحافظة على سلامة المبنى.</p>
+            <p>
+                تنفيذ أعمال عزل الخزانات للمساعدة
+                في الحماية من التسربات والرطوبة.
+            </p>
         </div>
 
         <div class="service">
-            <h3>عزل الأسطح</h3>
-            <p>عزل مائي للأسطح للمساعدة في منع تسرب مياه الأمطار والرطوبة.</p>
+            <div class="service-icon">🏠</div>
+            <h3>العزل المائي للأسطح</h3>
+            <p>
+                حلول عزل مائي للأسطح للمساعدة في منع
+                تسرب مياه الأمطار وحماية المباني.
+            </p>
         </div>
 
         <div class="service">
-            <h3>العزل الحراري</h3>
-            <p>حلول عزل حراري للأسطح للمساعدة في تقليل انتقال الحرارة.</p>
+            <div class="service-icon">☀️</div>
+            <h3>العزل الحراري للأسطح</h3>
+            <p>
+                خدمات العزل الحراري للمساعدة في تقليل
+                انتقال الحرارة وتحسين راحة المبنى.
+            </p>
         </div>
 
     </section>
 
     <section class="why">
         <h2>لماذا تختار خدماتنا؟</h2>
-        <ul>
-            <li>الاهتمام بجودة تنفيذ الأعمال.</li>
-            <li>حلول متنوعة لتنظيف وعزل الخزانات.</li>
-            <li>خدمات عزل مائي وحراري للأسطح.</li>
-            <li>الاستجابة لطلبات العملاء في الرياض.</li>
-            <li>التواصل المباشر لطلب الخدمة والاستفسار.</li>
-        </ul>
+
+        <div class="why-grid">
+            <div class="why-item">
+                <span>✓</span> الاهتمام بجودة تنفيذ الأعمال
+            </div>
+
+            <div class="why-item">
+                <span>✓</span> حلول متنوعة للتنظيف والعزل
+            </div>
+
+            <div class="why-item">
+                <span>✓</span> خدمات مائية وحرارية للأسطح
+            </div>
+
+            <div class="why-item">
+                <span>✓</span> تغطية الخدمات داخل الرياض
+            </div>
+
+            <div class="why-item">
+                <span>✓</span> سهولة التواصل وطلب الخدمة
+            </div>
+
+            <div class="why-item">
+                <span>✓</span> الاهتمام باحتياجات العملاء
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <h2>خدمات تنظيف وعزل بالرياض</h2>
+        <p>
+            سواء كنت تحتاج إلى تنظيف وتعقيم خزان المياه،
+            أو عزل الخزانات لحمايتها من التسربات،
+            أو تنفيذ العزل المائي والحراري للأسطح،
+            يمكنك التواصل معنا للاستفسار عن الخدمة المناسبة
+            وطلب الخدمة داخل الرياض.
+        </p>
     </section>
 
     <section class="cta">
         <h2>اطلب خدمتك الآن في الرياض</h2>
-        <p>تواصل معنا عبر واتساب أو الاتصال المباشر</p>
+        <p>تواصل معنا مباشرة واستفسر عن خدمات تنظيف وعزل الخزانات والأسطح</p>
 
         <div class="buttons">
 
             <a class="btn whatsapp"
             href="https://wa.me/966571237292?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%AA%D9%86%D8%B8%D9%8A%D9%81%20%D9%88%D8%B9%D8%B2%D9%84%20%D8%A7%D9%84%D8%AE%D8%B2%D8%A7%D9%86%D8%A7%D8%AA%20%D9%88%D8%B9%D8%B2%D9%84%20%D8%A7%D9%84%D8%A3%D8%B3%D8%B7%D8%AD%20%D8%A8%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6."
-            target="_blank">
-            تواصل عبر واتساب
+            target="_blank" rel="noopener noreferrer">
+                تواصل عبر واتساب
             </a>
 
-            <a class="btn call" href="tel:0571237292">
-            اتصل بنا الآن
+            <a class="btn call" href="tel:+966571237292">
+                اتصل بنا الآن
             </a>
 
         </div>
     </section>
 
-</div>
+</main>
 
 <footer>
     جميع الحقوق محفوظة © خدمات تنظيف وعزل الخزانات بالرياض
